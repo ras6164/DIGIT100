@@ -59,7 +59,7 @@ h6 {
 p {
   margin-bottom: 10px;
   font-family: Karla, sans-serif;
-  color: #00000;
+  color: #000000;
   font-size: 25px;
   line-height: 1.6;
   font-weight: 400;
@@ -72,7 +72,7 @@ a:link {
 
 button {
   background-color: #130f49;
-	fontfamily: Karla, sans-seriff;
+	font-family: Karla,sans-seriff;
 	font-weight: 500;
   border: none;
   color: white;
@@ -90,7 +90,7 @@ hr {
 	height:10px;
 	border-width:0;
 	color:#ffffff;
-	background-color:#ffffff;
+	background-color: #ffffff;
 }
 
 body {
@@ -176,7 +176,7 @@ align-content: center;
 	float:left;
   flex: 50%;
 	margin: 0 auto;
-		positon: relative;
+	position: relative;
 
 }
 
