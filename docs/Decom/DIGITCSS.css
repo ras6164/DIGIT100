@@ -24,20 +24,18 @@ h2 {
 
 h3 {
   color: #130f49;
-  font-size: 25px;
-	font-family: Spacegrotesk, sans-serif;
-  line-height: 1;
+  font-size: 32px;
+  line-height: 1.2;
   font-weight: 600;
   letter-spacing: -0.03em;
 }
 
 h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-	font-family: Spacegrotesk, sans-serif;
-  color: #4A4A4A;
-  font-size: 20px;
-  line-height: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #130f49;
+  font-size: 22px;
+  line-height: 24px;
   font-weight: 700;
 }
 
@@ -169,23 +167,12 @@ mark.blue {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.row2:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row2 {
-	background-color: #e7f2fe;
-	border-radius: 10px;
-	margin: 10px;
-}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1000px) {
   .column {
@@ -207,7 +194,6 @@ mark.blue {
 .column img {
 	float:inherit;
 	width: 100%;
-	border-radius: 10px;
 }
 *,
 *::before,
@@ -328,7 +314,7 @@ mark.blue {
   height: 2px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 650px) {
   .container {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -487,102 +473,10 @@ border: 3px solid white;
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1000px) {
   .column3 {
-   	positon: relative;
-  float: left;
-  width: 50%;
-  padding: 10px;
-  justify-content: center;
-	align-items: center;
-	}
-	
-	.portcontainer{
-		width: 45%;
-	}
-}
-
-@media screen and (max-width: 600px) {
-  .column3 {
     width: 100%;
 	}
 	
 	.portcontainer{
 		width: 100%;
 	}
-}
-
-
-/* Create three equal columns that floats next to each other */
-.aboutcontainer {
-	positon: relative;
-  float: left;
-  
-  padding: 10px;
-  justify-content: center;
-	align-items: center;
-}
-
-.left {
-	width: 10%;
-}
-
-.right {
-	width: 90%;
-}
-
-.aboutcontainer img {
-	width: 100px;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
-  .aboutcontainer {
-    width: 100%;
-	}
-}
-
-
-button.aboutbutton {
-	background-color: #EAEAEA;
-	border: solid;
-	border-color: white;
-	color: #000000;
-	border-radius:10px;
-	padding: 50px 100px 50px 100px;
-	width: 100%;
-	
-}
-
-.aboutbutton:hover {
-	border: solid;
-border-color: #0a7bc4;	
-	color: #0a7bc4;
-}
-
-.contact {
-	justify-content: center;
-	text-align: center;
-	border-radius: 10px;
-	background-color: #d3dfee;
-	padding: 150px;
-	margin: 25px 10px 10px 10px;
-}
-
-.contact a {
-  margin-top: 0px;
-  margin-bottom: 16px;
-  color: #0a7bc4;
-	font-family: Spacegrotesk, sans-serif;
-  font-size: 2.5vw;
-  line-height: 1.1;
-  font-weight: 700;
-  letter-spacing: -0.04em;
-	text-decoration: none;
-	
-	
 }
