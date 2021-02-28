@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koinonia of Erie County Website | Ryan A. Scott</title>
+<link href="DIGITCSS.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+
+<div class="container">
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Ryan A. Scott Logo"></a>
+    </div>
+<div class="navbar">
+
+<div class="icon-bar" onclick="Show()">
+    <i></i>
+    <i></i>
+    <i></i>
+</div>
+
+<ul id="nav-lists">
+    <li class="close"><span onclick="Hide()">×</span></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#rasabout">About</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="index.html#rasportfolio">Portfolio</a></li>
+	<li><a href="coursework.html">Coursework</a></li>
+</ul>
+
+</div>
+</div>
+
+
+<script>
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("_Menus-show");
+}
+
+function Hide(){
+navList.classList.remove("_Menus-show");
+}
+</script>
+
+	<div class="row2">
+  <div class="column">
+	   <p>COURSEWORK</p>
+	  <h1>Comparative Website Essay</h1>
+	  <p>WordPress/Webflow and static HTML are two of the most popular methods to develop a website, both of which, contain significant advantages and disadvantages depending on its purpose. WordPress/Webflow are both a content management system (CMS) and can allow for the creation of a website in less time, without the need to manually write code. While this lowers some barriers to entry such as knowing how to write HTML/CSS, paying for hosting/domains, and downloading/paying for expensive coding editors, it still forces the use of an overcomplicated graphic user interface (GUI) that come with its own challenges of attempting to fight with the interface to make desired changes. With such a large number of websites using a universal platform, it increases the chances for cybersecurity risks and furthers the injection of outsider code and grants permission rights to unknown developers at times. This poses an advantage for static HTML pages. As nearly all content is tested and written in-house, it ensures that malicious lines of code are not snuck in with the unknowns of what is truly being modified in the code once the “activate” button is pressed. </p>
+
+<p>While a CMS may require some additional clicks to actually produce the desired results, one can still rapidly change the look and feel of a site dynamically by implementing a theme, which can save many hours of transferring content in an HTML editor. While one must acknowledge the ease of implementing global CSS settings in changing the look and feel of a site, there is nothing quite as easy as pressing activate in a GUI-based environment as offered from a CMS.  WordPress/Webflow do not allow for complete customization of sites without attempting to find code/fight with a GUI but eliminate the need to learn CSS (static HTML) and are much easier for individuals new to website creation. A CMS also has the ability to add new features and functionality in an effortless way by downloading and activating plugins, this is especially handy for advanced functions such as adding contact forms, creation of an e-commerce store, or even easy-to-use migration tools.</p> 
+
+<p>Content management systems can be used by anyone with a stable internet connection and proficient computer skills, making it much more common to be used by beginners with no formal web development skills or for organizations desiring a GUI-based interface that can be maintained easily. Static HTML can be learned with proficient computer knowledge as well, but also requires a large amount of troubleshooting, diligence, and patience at times, making it more suitable for individuals or organizations that require large amounts of control over a site and desire originality.  </p>
+
+<p>In the future, I would be interested in learning JavaScript in order to further improve the user experience when visiting my static HTML page. I attempted to replicate the CMS version as close as possible, but the animations that are present on the CMS are using JavaScript that I have some experience with, but not enough to further replicate it exactly. Adding these animations would make the website feel much more interactive for the user, rather than a fully static page with strictly content. 
+</p>
+	  
+		  <button onclick="location.href='http://e-portfolio-d8731a-839f227d32ce526dc4e1.webflow.io/'">Visit my Webflow Website</button>
+
+
+  </div>
+  <div class="column">
+	  <figure>
+	  <img src="images/Website.png" alt="Webflow Website Rendering"/>
+	  </figure> 
+	</div>
+</div>
+	
+	<div class="contact">
+		<p>Contact Me</p>
+	<h2>Let's Talk!</h2>
+		<img src="images/Mail.svg" alt="Contact Ryan Scott"/> 
+		<br>
+	<a href="mailto:ras6164@psu.edu">ras6164 at psu.edu</a>
+	</div>
+	
+	<p>© 2021 Ryan A. Scott. Designed by Empower Marketing Group LLC. </p>
+</body>
+</html>

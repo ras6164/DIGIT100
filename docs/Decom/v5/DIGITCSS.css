@@ -16,7 +16,7 @@ h2 {
   margin-bottom: 16px;
   color: #130f49;
 	font-family: Spacegrotesk, sans-serif;
-  font-size: 60px;
+  font-size: 4vw;
   line-height: 1.1;
   font-weight: 700;
   letter-spacing: -0.04em;
@@ -70,7 +70,7 @@ p {
   margin-bottom: 10px;
   font-family: Karla, sans-serif;
   color: #00000;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -451,8 +451,8 @@ mark.blue {
 	background-color: transparent;
 border: 3px solid white;
 	cursor: pointer;
-	 padding: 5px 17px 5px 17px;
-  font-size: 20px;
+	 padding: 5px 20px 5 20;
+  font-size: 1.8vw;
   margin: 1px 1px;
 	border-radius: 10px 10px 10px 10px;
 }
@@ -563,9 +563,8 @@ border-color: #0a7bc4;
 	text-align: center;
 	border-radius: 10px;
 	background-color: #d3dfee;
-	margin: 25px 20px 20px 20px;
-	padding: 100px 0px 100px 0px;
-	width: 94%
+	padding: 150px;
+	margin: 25px 10px 10px 10px;
 }
 
 .contact a {
@@ -573,7 +572,7 @@ border-color: #0a7bc4;
   margin-bottom: 16px;
   color: #0a7bc4;
 	font-family: Spacegrotesk, sans-serif;
-  font-size: 30px;
+  font-size: 2.5vw;
   line-height: 1.1;
   font-weight: 700;
   letter-spacing: -0.04em;
