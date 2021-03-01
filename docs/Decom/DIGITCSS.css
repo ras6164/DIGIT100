@@ -69,7 +69,7 @@ h6 {
 p {
   margin-bottom: 10px;
   font-family: Karla, sans-serif;
-  color: #000000;
+  color: #00000;
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
@@ -82,7 +82,7 @@ a:link {
 
 button {
   background-color: #130f49;
-	font-family: Karla, sans-seriff;
+	fontfamily: Karla, sans-seriff;
 	font-weight: 500;
   border: none;
   color: white;
@@ -219,14 +219,20 @@ mark.blue {
 *::before,
 *::after {
   box-sizing: border-box;
+  webkit-box-sizing: border-box;
 }
 
 
 .container {
   height: 80px;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
 }
@@ -238,9 +244,13 @@ mark.blue {
 }
 
 .container .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 60px;
 }
@@ -251,15 +261,22 @@ mark.blue {
 }
 
 .container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
   padding: 0 10px;
 }
 
 .container .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -305,8 +322,10 @@ mark.blue {
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -319,25 +338,30 @@ mark.blue {
 @media only screen and (max-width: 1000px) {
   .container {
     -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
   .container .logo {
     -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
   }
 
   .container .navbar {
     -webkit-box-flex: 0;
+    -ms-flex: 0;
     flex: 0;
   }
 
   .container .navbar ul {
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     position: fixed;
     left: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     background: #ffffff;
     width: 100%;
@@ -361,6 +385,8 @@ mark.blue {
   }
 
   .container .navbar .icon-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -399,6 +425,7 @@ mark.blue {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -436,7 +463,7 @@ border: 3px solid white;
 
 /* Create three equal columns that floats next to each other */
 .column3 {
-	position: relative;
+	positon: relative;
   float: left;
   width: 33.333%;
   padding: 10px;
@@ -454,7 +481,7 @@ border: 3px solid white;
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1000px) {
   .column3 {
-   	position: relative;
+   	positon: relative;
   float: left;
   width: 50%;
   padding: 10px;
@@ -480,7 +507,7 @@ border: 3px solid white;
 
 /* Create three equal columns that floats next to each other */
 .aboutcontainer {
-	position: relative;
+	positon: relative;
   float: left;
   
   padding: 10px;
