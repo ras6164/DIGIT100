@@ -597,4 +597,6 @@ hr.resume {
 
 figcaption {
 	font-family: Spacegrotesk, sans-serif;
+	font-style: italic;
+	font-size:13px;
 }
