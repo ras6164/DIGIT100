@@ -174,13 +174,6 @@ mark.blue {
 	align-items: center;
 }
 
-.columncorpus {
-  float: left;
-  width: 100%;
-  padding: 10px;
-  justify-content: center;
-	align-items: center;
-}
 /* Clear floats after the columns */
 .row:after {
   content: "";
